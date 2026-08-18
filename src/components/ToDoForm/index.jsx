@@ -8,6 +8,7 @@ export function TodoForm({ onSubmit }) {
             <TextInput
                 placeHolder="Digite o item que deseja adicionar"
                 required
+                name = 'description'
             />
             <Button>
                 Salvar item
